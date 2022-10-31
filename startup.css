@@ -1,0 +1,53 @@
+body{
+    height: 100%;
+    width: 100%;
+    font-family: Montserrat;
+    background: url(header.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+h1 {
+    color: whitesmoke;
+    font-size: 3rem;
+    
+    width: 65%;
+    text-align: center;
+    margin: auto;
+
+
+}
+
+hr {
+    border-color: orangered;
+    border-width: 3px;
+    max-width: 65px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 100%;
+}
+
+.button {
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: #fec107;
+    color: blanchedalmond;
+    padding: 15px 30px;
+    border-radius: 15px;
+    border-width: 4px;
+    border-color: blue;
+
+}
+.button:hover {
+    background-color: blue;
+    color: whitesmoke;
+    border-color: #fec107;
+    border-width: 6px;
+    
+}
+.buffer {
+    height: 20%;
+}
